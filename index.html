@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Off The Air</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>OFF THE AIR</h1>
+    <div class="container">
+      <div class="select-runtime">
+        <select data-filter="runtime" class="filter-runtime">
+          <option value="">Select Runtime</option>
+          <option value="30">30 Minutes</option>
+          <option value="60">60 Minutes</option>
+          <option value="120">120 Minutes</option>
+        </select>
+      </div>
+      <div class="select-status">
+        <select data-filter="status" class="filter-status">
+          <option value="">Select Status</option>
+          <option value="Running">Running</option>
+          <option value="Ended">Ended</option>
+        </select>
+      </div>
+      <div class="select-type">
+        <select data-filter="type" class="filter-type">
+          <option value="">Select Type</option>
+          <option value="Animation">Animation</option>
+          <option value="Reality">Reality</option>
+          <option value="Scripted">Scripted</option>
+        </select>
+      </div>
+      <div class="select-genre">
+        <select data-filter="genre" class="filter-genre">
+          <option value="">Select Genre</option>
+          <option value="Action">Action</option>
+          <option value="Adventure">Adventure</option>
+          <option value="Anime">Anime</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Crime">Crime</option>
+          <option value="Drama">Drama</option>
+          <option value="Fantasy">Fantasy</option>
+          <option value="Family">Family</option>
+          <option value="History">History</option>
+          <option value="Horror">Horror</option>
+          <option value="Legal">Legal</option>
+          <option value="Medical">Medical</option>
+          <option value="Music">Music</option>
+          <option value="Mystery">Mystery</option>
+          <option value="Romance">Romance</option>
+          <option value="Science-Fiction">Science-Fiction</option>
+          <option value="Supernatural">Supernatural</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Western">Western</option>
+        </select>
+      </div>
+      <div class="select-country">
+        <select data-filter="country" class="filter-country">
+          <option value="">Select Country of Origin</option>
+          <option value="United States">United States</option>
+          <option value="International">International</option>
+        </select>
+      </div>
+      <div class="select-year">
+        <select data-filter="year" class="filter-year">
+          <option value="">Select Date Range</option>
+          <option value="1990-1999">1990-1999</option>
+          <option value="2000-2009">2000-2009</option>
+          <option value="2010-2014">2010-2014</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
