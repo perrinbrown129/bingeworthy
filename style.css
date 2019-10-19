@@ -10,6 +10,46 @@ h1 {
   padding: 10px;
 }
 
-select {
+#button-row {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+button {
+  text-align: center;
+  font-size: 14px;
   background: rgb(165, 170, 150);
+  margin: 2px;
+}
+
+img {
+  border: 1px green solid;
+}
+
+.container {
+  display: flex;
+}
+
+h3 {
+  border: 1px black solid;
+}
+
+#summary {
+  border: 1px black solid;
+  align-items: center;
+}
+
+#grandparentdiv {
+  display: flex;
+  margin: 10px 0;
+}
+
+#parentdiv {
+  padding-left: 20px;
 }
