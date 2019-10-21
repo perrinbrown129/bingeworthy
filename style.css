@@ -1,20 +1,46 @@
 body {
-  background: rgb(246, 245, 248);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: linear-gradient(
+    90deg,
+    white 20%,
+    red 20%,
+    red 25%,
+    white 25%,
+    white 50%,
+    red 50%,
+    red 55%,
+    white 55%,
+    white 75%,
+    red 75%
+  );
+  background-size: 90px;
+  justify-content: center;
+  font-family: "Allan", cursive;
 }
 
-h1 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.header {
   text-align: center;
-  background: rgb(165, 170, 150);
+  background: white
   padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background: white;
+  border: red 10px solid;
+  border-radius: 200px;
+  align-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
+
 
 #button-row {
   overflow: hidden;
-  background-color: rgb(165, 170, 150);
+  background: white;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  border: white 2px solid;
+  margin-bottom: 20px;
 }
 
 .sticky {
@@ -25,26 +51,24 @@ h1 {
 
 button {
   text-align: center;
-  font-size: 14px;
-  background: rgb(165, 170, 150);
+  font-size: 2em;
+  background: none;
   margin: 2px;
   align-items: center;
+  border: none;
+  align-content: center;
+  font-family: "Allan", cursive;
 }
 
-img {
-  border: 1px green solid;
+h3 {
+    color: red
 }
 
 .container {
   display: flex;
 }
 
-h3 {
-  /* border: 1px black solid; */
-}
-
 #summary {
-  /* border: 1px black solid; */
   align-items: center;
 }
 
@@ -55,4 +79,6 @@ h3 {
 
 #parentdiv {
   padding-left: 20px;
+  background: white;
+  border: black 5px solid;
 }

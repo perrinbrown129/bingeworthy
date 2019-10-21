@@ -9,12 +9,130 @@
     ></script>
     <script src="app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Allan&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <h1>bingeworthy</h1>
-    <h2>pick your favorite tv category & get a list of recommendations!</h2>
+    <div class="header">
+      <h1>bingeworthy</h1>
+      <h2>
+        click on your favorite <br />
+        genre & get your <br />next binge!
+      </h2>
+    </div>
     <div class="container">
+      <style>
+        .popcorn {
+          color: yellow;
+          font-size: 2em;
+          text-shadow: 0 0 10px black;
+        }
+
+        @keyframes popcorn-fall {
+          0% {
+            top: -10%;
+          }
+          100% {
+            top: 100%;
+          }
+        }
+
+        .popcorn {
+          position: fixed;
+          top: -10%;
+          animation-name: popcorn-fall;
+          animation-duration: 10s, 3s;
+          animation-iteration-count: infinite, infinite;
+        }
+        .popcorn:nth-of-type(0) {
+          left: 1%;
+          animation-delay: 0s, 0s;
+        }
+        .popcorn:nth-of-type(1) {
+          left: 10%;
+          animation-delay: 1s, 1s;
+        }
+        .popcorn:nth-of-type(2) {
+          left: 20%;
+          animation-delay: 6s, 0.5s;
+        }
+        .popcorn:nth-of-type(3) {
+          left: 30%;
+          animation-delay: 4s, 2s;
+        }
+        .popcorn:nth-of-type(4) {
+          left: 40%;
+          animation-delay: 2s, 2s;
+        }
+        .popcorn:nth-of-type(5) {
+          left: 50%;
+          animation-delay: 8s, 3s;
+        }
+        .popcorn:nth-of-type(6) {
+          left: 60%;
+          animation-delay: 6s, 2s;
+        }
+        .popcorn:nth-of-type(7) {
+          left: 70%;
+          animation-delay: 2.5s, 1s;
+        }
+        .popcorn:nth-of-type(8) {
+          left: 80%;
+          animation-delay: 1s, 0s;
+        }
+        .popcorn:nth-of-type(9) {
+          left: 90%;
+          animation-delay: 3s, 1.5s;
+        }
+        .popcorn:nth-of-type(10) {
+          left: 25%;
+          animation-delay: 2s, 0s;
+        }
+        .popcorn:nth-of-type(11) {
+          left: 65%;
+          animation-delay: 4s, 2.5s;
+        }
+      </style>
+      <div class=" popcorn">
+        ✤
+      </div>
+      <div class=" popcorn">
+        ✤
+      </div>
+      <div class=" popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+      <div class="popcorn">
+        ✤
+      </div>
+
       <!-- <div class="select-runtime">
       <select data-filter="runtime" class="filter-runtime" id="runtime">
         <option value="">Select Runtime</option>

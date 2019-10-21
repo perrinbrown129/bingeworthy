@@ -69,7 +69,7 @@ $(() => {
           const genre = data[i].genres[j];
 
           if (genre == selectedGenre) {
-            const $name = $("<h3>").text("Show Title: " + data[i].name);
+            const $name = $("<h3>").text(data[i].name);
             $name.attr("class", "names");
 
             const $img = $("<img>").attr("src", data[i].image.medium);
